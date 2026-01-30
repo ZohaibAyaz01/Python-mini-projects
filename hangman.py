@@ -1,5 +1,4 @@
 import random
-
 print("-----HANGMAN GAME-----")
 print("    --- RULES ---")
 print("1) Display random words with missing letters on your screen")
@@ -39,3 +38,4 @@ def hangman():
     else:
         print(f"Game Over! The word was: {chose}")
 hangman()
+
